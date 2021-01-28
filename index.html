@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="utf-8">
+    <title>Photo gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container"></div>
+    <section id="grid">
+    <h1>Photo Gallery</h1>
+    <h2>Grid Gallery</h2>
+    <span>
+        <img class="img" src="https://i.pinimg.com/originals/5d/15/7e/5d157ef79d513ba57b45bf849f4f8268.jpg">
+        <img class="img" src="https://i.pinimg.com/736x/d2/ea/89/d2ea8906cb89b8b4dee7f68ff3b45629.jpg">
+        <img class="img" src="https://i.pinimg.com/originals/af/89/e5/af89e5ac6bf59a475723eba4dafdde3d.jpg">
+        <img class="img" src="https://i.pinimg.com/originals/31/e7/74/31e774ba5d5fb27bb87f55500563c322.jpg">
+    </span>
+    <span>
+        <img class="img" src="https://i.pinimg.com/originals/f1/38/f8/f138f8984330af7678ed435d1cb09ec5.jpg">
+        <img class="img" src="https://i.pinimg.com/originals/aa/fb/bc/aafbbc4d1b2ff1acd9baf940d2f0946d.jpg">
+        <img class="img" src="https://www.denofgeek.com/wp-content/uploads/2019/04/ant-man-1-main.jpg?resize=768%2C432">
+        <img class="img" src="https://static.toiimg.com/photo/msid-75390440/75390440.jpg?344550">
+        <img class="img" src="https://i.pinimg.com/originals/3f/f6/33/3ff6338a892e173c892717cf06fca603.jpg">
+    </span>
+    </section>
+    <section>
+    <h2>Sliding Gallery</h2>
+    <div id="myCarousor" class="carousor slide"></div>
+    <div class="carousel-inner">
+        <div class="item active">
+            <center>
+                <img class="img" src="https://img.theweek.in/content/dam/week/news/entertainment/images/2019/4/26/thanos-avengers-infinity.jpg" class="img-responsive">
+         <div class="carousel-content"></div>
+            </center>
+        </div>
+        <div class="item">
+            <center>
+                <img class="img" src="https://www.denofgeek.com/wp-content/uploads/2019/11/Gamora_Guardians_of_the_Galaxy.jpg?fit=1200%2C675" class="img-responsive">
+                <div class="carousel-content"></div>
+            </center>
+        </div>
+        <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#mycarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+    </section>
+</body>
+
+</html>
